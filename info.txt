@@ -1,0 +1,206 @@
+
+        <h1 style="font-size:60px;">
+          Coco Cat Cafe
+          <img class="small" src="https://svgsilh.com/svg/1801287.svg" />
+        </h1>
+
+        <div id="links">
+          <ul class="links">
+            <li class="links"><a href="#aboutus">About</a></li>
+            <li class="links"><a href="#menu">Menu</a></li>
+            <li class="links"><a href="#kitty">Our Cats</a></li>
+            <li class="links"><a href="#donate">Donate</a></li>
+            </ui>
+
+        </div>
+      
+      </div></div>
+    <div class="light">
+      <div id="aboutus">
+        
+          <h2>About Us</h2>
+          <p class="about">If you love cats, free wifi, and coffee, come join us. We are a cafe who takes care of cats until we can find them a permament home. Each cat is friendly and enjoys meeting our customers. Aside from petting the most adorable kitties, we offer delicious
+            coffee and pastries. </p>
+        
+      </div>
+    </div>
+    <div class="dark">
+      <div id="menu">
+        
+          <h2 style="font-size:40px;">Menu</h2>
+          <img class="round" src="https://theregister.co.nz/media/VERSIONS/cat-cafe_landscape--850x445.jpg" />
+          <table id="whole">
+            <tr>
+              <td>
+                <table class="submenu" id="espresso">
+                  <tr>
+                    <th>Espresso</th>
+                  </tr>
+                  <tr>
+                    <td>Cafe Mocha</td>
+                    <td>$9</td>
+                  </tr>
+                  <tr>
+                    <td>Cafe Latte</td>
+                    <td>$13</td>
+                  </tr>
+                  <tr>
+                    <td>Cappuccino</td>
+                    <td>$10</td>
+                  </tr>
+                  <tr>
+                    <td>Vanilla Latte</td>
+                    <td>$12</td>
+                  </tr>
+                  <tr>
+                    <td>Expresso</td>
+                    <td>$8</td>
+                  </tr>
+                  <tr>
+                    <td>Caramel Macchiato</td>
+                    <td>$14</td>
+                  </tr>
+                  <tr>
+                    <td>Americano</td>
+                    <td>$8</td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <table class="submenu" id="sweets">
+                  <tr>
+                    <th>Sweets</th>
+                  </tr>
+                  <tr>
+                    <td>Cupcakes</td>
+                    <td>$5</td>
+                  </tr>
+                  <tr>
+                    <td>Bread Pudding</td>
+                    <td>$3</td>
+                  </tr>
+                  <tr>
+                    <td>Croissant</td>
+                    <td>$10</td>
+                  </tr>
+                  <tr>
+                    <td>Apple Pie</td>
+                    <td>$7</td>
+                  </tr>
+                  <tr>
+                    <td>Cake</td>
+                    <td>$8</td>
+                  </tr>
+                  <tr>
+                    <td>Cheese Cake</td>
+                    <td>$14</td>
+                  </tr>
+
+                  <tr>
+                    <td>Macaron</td>
+                    <td>$6</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table class="submenu" id="cold">
+                  <tr>
+                    <th>Cold Beverages</th>
+                  </tr>
+                  <tr>
+                    <td>Iced Mocha</td>
+                    <td>$6</td>
+                  </tr>
+                  <tr>
+                    <td>Iced Latte</td>
+                    <td>$8</td>
+                  </tr>
+                  <tr>
+                    <td>Orange Juice</td>
+                    <td>$1.50</td>
+                  </tr>
+                  <tr>
+                    <td>Apple Juice</td>
+                    <td>$1.50</td>
+                  </tr>
+                  <tr>
+                    <td>Iced Tea</td>
+                    <td>$3</td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <table class="submenu" id="sandwhich">
+                  <tr>
+                    <th>Sandwhich</th>
+                  </tr>
+                  <tr>
+                    <td>Omelette</td>
+                    <td>$9</td>
+                  </tr>
+                  <tr>
+                    <td>Ham and Cheese</td>
+                    <td>$10</td>
+                  </tr>
+                  <tr>
+                    <td>Burger</td>
+                    <td>$7.50</td>
+                  </tr>
+                  <tr>
+                    <td>Egg and Bacon</td>
+                    <td>$5.35</td>
+                  </tr>
+                  <tr>
+                    <td>Tomato and Basil</td>
+                    <td>$3</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        
+      </div>
+    </div>
+    <div class="light">
+      <div id="donate">
+        
+          <h4 style="font-size:30px;"> Donate </h4>
+          <p style="font-size: 20px; margin:auto; width:50%;"> 5% of our profit goes to local animal shelters, but more animals need your help! You can donate to the Magnolia Animal Shelter and other shelter. Here are other ways you can donate. </p>
+        
+
+        <ul style="width:20%; margin:auto; ">
+          <li>Pay for spay and neuter</li>
+          <li>Donate $5</li>
+          <li>Donate $10</li>
+          <li>Sign up to volunteer at Magnolia Animal Shelter</li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="dark">
+      <div id="kitty">
+        
+          <h2>Kitty of The Month</h2>
+          <img class="med" src="https://c.pxhere.com/photos/4b/3d/adorable_animal_cat_cute_domestic_animal_feline_kitty_mammal-1570179.jpg!d" />
+
+          <ul>
+            <li style="font-size:20px;">Meet Sammie!</li>
+            <li>Age: 2 yrs old </li>
+            <li>Likes: catnip and mice</li>
+            <li>Dislikes: Too much attention</li>
+            <li>Personality: Calm and reserved</li>
+          </ul>
+        
+      </div>
+    </div>
+    <div class="footer">
+
+      <span><p> Coco Cat Cafe</p></span>
+      <p>321 Suzie Lane Drive</p>
+      <p>Nowhere, Mississippi 23011
+        <p>
+
+    </div> 
