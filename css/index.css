@@ -129,9 +129,15 @@ table {
 * {
   box-sizing: border-box;
 }
+body .container {
+  width: 95%;
+  margin: 0 auto;
+}
 .header-img {
-  max-width: 100%;
+  width: 100%;
+  height: 60vh;
 }
 .header-img img {
-  max-width: 100%;
+  width: 100%;
+  height: 60vh;
 }
