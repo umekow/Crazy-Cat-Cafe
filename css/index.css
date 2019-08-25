@@ -145,7 +145,10 @@ body .container {
 }
 .navbar div.logo-container,
 .navbar nav {
-  padding: 0.5em 0;
+  padding: 0.8em 0;
+}
+.navbar h1 {
+  font-family: 'Permanent Marker', cursive;
 }
 @media (max-width: 601px) {
   .navbar {
@@ -161,7 +164,6 @@ body .container {
     display: flex;
     align-items: center;
     margin: auto;
-    width: 53%;
     justify-content: space-between;
   }
   .navbar .logo-container img {
