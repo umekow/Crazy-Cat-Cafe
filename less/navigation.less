@@ -1,0 +1,41 @@
+.navbar{
+    border-bottom: 1px dashed @main-color;
+    div.logo-container, nav{
+        padding: .5em 0; 
+    }
+    @media @mobile{
+        .flex-column(); 
+        .navbar div{
+            padding: 2rem 0; 
+        }
+        .logo-container{
+            display:flex; 
+            align-items:center;
+            margin: auto; 
+            width: 53%; 
+            justify-content: space-between; 
+            img{
+                width: 4rem; 
+            }
+            h1{
+                font-size: 3rem; 
+            }
+        }
+
+        nav {
+            
+            .nav_links {
+                display:flex; 
+                justify-content: space-between; 
+                margin: auto; 
+                font-size: 1.8rem; 
+                a{
+                    padding: 0 1rem; 
+                    text-decoration: none; 
+                    color: @text; 
+                }
+            }
+        }
+    
+    }
+}
