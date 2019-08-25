@@ -136,7 +136,7 @@ body {
   font-family: 'Livvic', sans-serif;
 }
 body .container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 .navbar {
@@ -193,11 +193,35 @@ body .container {
 }
 .container .header-img {
   width: 100%;
-  height: 60vh;
 }
 .container .header-img img {
+  filter: brightness(0.6);
   width: 100%;
-  height: 60vh;
-  filter: brightness(0.7);
-  width: 90%;
+}
+.container .header-text {
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 36%;
+}
+.container .header-text p {
+  color: white;
+}
+.container .header-text .first-header {
+  font-size: 5rem;
+}
+.container .header-text .second-header {
+  font-size: 2.5rem;
+}
+.container .header-text button {
+  padding: 1em 2em;
+  border-radius: 1.5em;
+  color: white;
+  background: #A66D3F;
+  width: 60%;
 }

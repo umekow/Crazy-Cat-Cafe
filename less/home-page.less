@@ -14,10 +14,34 @@
 
         img{
             .fit();
-            filter: brightness(0.7); 
-            width: 90%; 
+            filter: brightness(0.6); 
+            width: 100%; 
         }
     }
 
+    .header-text{
+        position: absolute; 
+        z-index: 1; 
+        top: 65%;
+        left: 10%;  
+        display: flex; 
+        flex-direction:column; 
+        justify-content: space-between; 
+        padding: 2rem; 
+        height:36%; 
+        p{
+            color:@accent; 
+        }
+        .first-header{
+            font-size:5rem; 
+        }
+        .second-header{
+            font-size:2.5rem; 
+        }
+        button{
+            .button();
+            width: 60%; 
+        }
+    }
 
 }
