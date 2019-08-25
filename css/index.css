@@ -128,7 +128,6 @@ table {
 }
 * {
   box-sizing: border-box;
-  border: 1px solid black;
 }
 html {
   font-size: 62.5%;
@@ -142,6 +141,7 @@ body .container {
 }
 .navbar {
   border-bottom: 1px dashed #3B1313;
+  background: white;
 }
 .navbar div.logo-container,
 .navbar nav {
@@ -198,4 +198,6 @@ body .container {
 .container .header-img img {
   width: 100%;
   height: 60vh;
+  filter: brightness(0.7);
+  width: 90%;
 }
