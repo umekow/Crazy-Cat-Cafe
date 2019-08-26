@@ -184,44 +184,64 @@ body .container {
     color: black;
   }
 }
-.container header .navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 2em;
+@media (max-width: 601px) {
+  .container .header-img {
+    width: 100%;
+  }
+  .container .header-img img {
+    filter: brightness(0.6);
+    width: 100%;
+  }
+  .container .header-text {
+    position: absolute;
+    z-index: 1;
+    top: 28rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 36%;
+  }
+  .container .header-text p {
+    color: white;
+  }
+  .container .header-text .first-header {
+    font-size: 5rem;
+  }
+  .container .header-text .second-header {
+    font-size: 2.5rem;
+  }
+  .container .header-text button {
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    color: white;
+    background: #A66D3F;
+    border: 1px;
+    box-shadow: 0.1rem 0.2rem #1a1a1acc;
+    width: 22rem;
+  }
+  .container .header-text button:hover {
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    color: #A66D3F;
+    background: white;
+    border: 1px;
+    box-shadow: 0.1rem 0.2rem #1a1a1acc;
+    width: 22rem;
+  }
 }
-.container .header-img {
-  width: 100%;
+@media (max-width: 601px) and (max-width: 444px) {
+  .container .header-text {
+    top: 16rem;
+    left: 2rem;
+    padding: 0.5rem;
+  }
 }
-.container .header-img img {
-  filter: brightness(0.6);
-  width: 100%;
-}
-.container .header-text {
-  position: absolute;
-  z-index: 1;
-  top: 65%;
-  left: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 2rem;
-  height: 36%;
-}
-.container .header-text p {
-  color: white;
-}
-.container .header-text .first-header {
-  font-size: 5rem;
-}
-.container .header-text .second-header {
-  font-size: 2.5rem;
-}
-.container .header-text button {
-  padding: 1em 2em;
-  border-radius: 1.5em;
-  color: white;
-  background: #A66D3F;
-  width: 60%;
+@media (max-width: 601px) and (max-width:420px) {
+  .container .header-text {
+    top: 40%;
+    left: 5%;
+    padding: 1.5rem;
+  }
 }

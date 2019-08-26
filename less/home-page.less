@@ -1,47 +1,62 @@
   
 //container
 .container{
-    header{
-    .navbar{
-        .flex-column(); 
-        font-size:2em; 
-    }
-    }
-    //images
+    
+    @media @large-mobile{
+        
+        
+        //images
 
-    .header-img{
-        .fit(); 
+        .header-img{
+            .fit(); 
 
-        img{
-            .fit();
-            filter: brightness(0.6); 
-            width: 100%; 
+            img{
+                .fit();
+                filter: brightness(0.6); 
+                width: 100%; 
+            }
         }
-    }
 
-    .header-text{
-        position: absolute; 
-        z-index: 1; 
-        top: 65%;
-        left: 10%;  
-        display: flex; 
-        flex-direction:column; 
-        justify-content: space-between; 
-        padding: 2rem; 
-        height:36%; 
-        p{
-            color:@accent; 
-        }
-        .first-header{
-            font-size:5rem; 
-        }
-        .second-header{
-            font-size:2.5rem; 
-        }
-        button{
-            .button();
-            width: 60%; 
-        }
-    }
+        .header-text{
+            position: absolute; 
+            z-index: 1; 
+            top: 28rem;
+            left: 5rem;  
+            display: flex; 
+            flex-direction:column; 
+            justify-content: space-between; 
+            padding: 2rem; 
+            height:36%; 
+            @media @mobile{
+                top: 16rem;
+                left: 2rem;
+                padding: .5rem; 
+            }
+            @media @small-mobile{
+                top:40%;
+                left:5%;
+                padding:1.5rem;
+            }
+            p{
+                color:@accent; 
+            }
+            .first-header{
+                font-size:5rem; 
+            }
+            .second-header{
+                font-size:2.5rem; 
+            }
+            button{
+                .button();
+                
+            
+                &:hover{
+                    .button(@color:@second-color, @background:@accent); 
+                    }
+                }
+            }
 
+
+        }
+    
 }
